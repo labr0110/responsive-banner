@@ -1,3 +1,37 @@
 html {
   font-family: "georgia"; serif;
 }
+
+section {
+    background-color: #495562;
+    color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border-color: #e2e2e2;
+}
+
+@media only screen and (min-width: 38em) {
+  .banner {
+    max-height: 500px;
+  }
+  .btn-banner {
+    text-align: right;
+
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .banner-text {
+    position: absolute;
+    overflow: hidden;
+  }
+  .banner-content {
+    position: relative;
+    top: 50%;
+  }
+  .btn-banner {
+    position: relative;
+  }
+}
