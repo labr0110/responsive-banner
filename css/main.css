@@ -1,35 +1,41 @@
 html {
-  font-family: "georgia"; serif;
+  font-family: Georgia, serif;
 }
 
 section {
-    background-color: #495562;
-    color: #fff;
+  background-color: #495562;
+  color: #fff;
 }
 
 .btn {
   color: #fff;
-  border-color: #e2e2e2;
+  border-color: #97a49b;
 }
 
 @media only screen and (min-width: 38em) {
-  .banner {
-  }
+
   .btn-banner {
     text-align: right;
-
   }
 }
 
 @media only screen and (min-width: 60em) {
+
   .banner {
     position: relative;
     overflow: hidden;
     max-height: 500px;
   }
+
   .banner-text {
     position: absolute;
     bottom: 0;
     width: 100%;
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+  }
+
+  .btn {
+    border-color: #efefef;
+    background-color: transparent;
   }
 }
