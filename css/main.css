@@ -14,7 +14,6 @@ section {
 
 @media only screen and (min-width: 38em) {
   .banner {
-    max-height: 500px;
   }
   .btn-banner {
     text-align: right;
@@ -23,15 +22,14 @@ section {
 }
 
 @media only screen and (min-width: 60em) {
+  .banner {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+  }
   .banner-text {
     position: absolute;
-    overflow: hidden;
-  }
-  .banner-content {
-    position: relative;
-    top: 50%;
-  }
-  .btn-banner {
-    position: relative;
+    bottom: 0;
+    width: 100%;
   }
 }
